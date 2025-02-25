@@ -20,8 +20,16 @@
       },
       "complexity": {
         "all": false
+      },
+      "correctness": {
+        "useImportExtensions": "off"
       }
     }
   },
-  "javascript": { "formatter": { "quoteStyle": "single" } }
+  "javascript": {
+    "formatter": { "quoteStyle": "single" },
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    }
+  }
 }
